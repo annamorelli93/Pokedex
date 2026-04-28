@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="8.9.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.23" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.4.0" />
+      <PackageReference Include="Moq" Version="4.20.72" />
+      <PackageReference Include="xunit.v3" Version="4.0.0-pre.81" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Pokedex\Pokedex.csproj" />
+    </ItemGroup>
+
+</Project>

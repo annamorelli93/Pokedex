@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:5295
+
+### Get Pokemon details
+GET http://localhost:5295/pokemon/mewtwo,
+Accept: application/json
+
+
+### Get translated Pokemon (yoda)
+GET {{baseUrl}}/pokemon/translated/mewtwo,
+Accept: application/json
+
+
+### Test with another Pokemon
+GET {{baseUrl}}/pokemon/pikachu
+Accept: application/json
+
+
+### Test translated Pikachu
+GET {{baseUrl}}/pokemon/translated/pikachu
+Accept: application/json
