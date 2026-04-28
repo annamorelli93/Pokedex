@@ -1,0 +1,32 @@
+# Build
+bin/
+obj/
+
+# Packages
+/packages/
+
+# Rider
+.idea/
+*.sln.iml
+riderModule.iml
+
+# ReSharper
+_ReSharper.Caches/
+
+# Visual Studio 
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Output
+*.log
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config locali (attenzione ai segreti)
+appsettings.Development.json
